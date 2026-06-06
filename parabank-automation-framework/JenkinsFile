@@ -15,17 +15,21 @@ pipeline {
             }
         }
 
-        stage('Build') {
-            steps {
-                sh 'mvn clean compile'
-            }
+       stage('Build') {
+    steps {
+        dir('parabank-automation-framework') {
+            sh 'mvn clean compile'
         }
+    }
+}
 
-        stage('Run Tests') {
-            steps {
-                sh 'mvn test'
-            }
+stage('Run Tests') {
+    steps {
+        dir('parabank-automation-framework') {
+            sh 'mvn test'
         }
+    }
+}
     }
 
     post {
