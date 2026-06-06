@@ -44,4 +44,9 @@ public class ConfigReader {
 
         return prop.getProperty("password");
     }
+
+    public String getExecution() {
+
+        return prop.getProperty("execution");
+    }
 }
