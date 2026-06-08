@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="ParaBank Bug Suite">
+
+    <listeners>
+        <listener class-name="Utils.TestListener"/>
+    </listeners>
+
+    <test name="Bug Tests">
+
+        <classes>
+
+            <class name="Negative_Cases.TransferFundsBugTest"/>
+            <class name="Negative_Cases.BillPayBugTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
