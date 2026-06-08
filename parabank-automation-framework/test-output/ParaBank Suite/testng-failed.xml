@@ -9,24 +9,14 @@
       <class name="Tests.BillPayTest">
         <methods>
           <include name="zeroAmountBillPayBugTest"/>
-          <include name="billPayTest"/>
           <include name="createUser"/>
           <include name="tearDown"/>
           <include name="setup"/>
           <include name="negativeAmountBillPayBugTest"/>
         </methods>
       </class> <!-- Tests.BillPayTest -->
-      <class name="Tests.OpenAccountTest">
-        <methods>
-          <include name="openAccountTest"/>
-          <include name="createUser"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Tests.OpenAccountTest -->
       <class name="Tests.TransferFundsTest">
         <methods>
-          <include name="transferFundsTest"/>
           <include name="zeroAmountTransferBugTest"/>
           <include name="sameAccountTransferBugTest"/>
           <include name="createUser"/>
@@ -34,14 +24,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- Tests.TransferFundsTest -->
-      <class name="Tests.LoginTest">
-        <methods>
-          <include name="loginTest"/>
-          <include name="createUser"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Tests.LoginTest -->
     </classes>
   </test> <!-- ParaBank Tests(failed) -->
 </suite> <!-- Failed suite [ParaBank Suite] -->

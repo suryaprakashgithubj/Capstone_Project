@@ -8,42 +8,24 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">4,035</td><td></td><td></td></tr>
+<tr><th colspan="8">ParaBank Suite</th></tr>
+<tr><td><a href="#t0">ParaBank Tests</a></td><td class="num">14</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">64,100</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.LoginTest</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1780737369542</td><td rowspan="1">833</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ParaBank Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ParaBank Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.BillPayTest</td><td><a href="#m0">billPayTest</a></td><td rowspan="1">1780744906808</td><td rowspan="1">3455</td></tr><tr class="passedodd"><td rowspan="1">Tests.LoginTest</td><td><a href="#m1">loginTest</a></td><td rowspan="1">1780744892692</td><td rowspan="1">2738</td></tr><tr class="passedeven"><td rowspan="1">Tests.OpenAccountTest</td><td><a href="#m2">openAccountTest</a></td><td rowspan="1">1780744896877</td><td rowspan="1">3101</td></tr><tr class="passedodd"><td rowspan="10">Tests.RegistrationTest</td><td><a href="#m3">registrationTest</a></td><td rowspan="10">1780744880814</td><td rowspan="10">1127</td></tr><tr class="passedodd"><td><a href="#m4">registrationTest</a></td></tr><tr class="passedodd"><td><a href="#m5">registrationTest</a></td></tr><tr class="passedodd"><td><a href="#m6">registrationTest</a></td></tr><tr class="passedodd"><td><a href="#m7">registrationTest</a></td></tr><tr class="passedodd"><td><a href="#m8">registrationTest</a></td></tr><tr class="passedodd"><td><a href="#m9">registrationTest</a></td></tr><tr class="passedodd"><td><a href="#m10">registrationTest</a></td></tr><tr class="passedodd"><td><a href="#m11">registrationTest</a></td></tr><tr class="passedodd"><td><a href="#m12">registrationTest</a></td></tr><tr class="passedeven"><td rowspan="1">Tests.TransferFundsTest</td><td><a href="#m13">transferFundsTest</a></td><td rowspan="1">1780744901463</td><td rowspan="1">3901</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Tests.LoginTest#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Login Failed expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at Tests.LoginTest.loginTest(LoginTest.java:16)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ParaBank Tests</h2><h3 id="m0">Tests.BillPayTest#billPayTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Tests.LoginTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Tests.OpenAccountTest#openAccountTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Tests.RegistrationTest#registrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Sanjay</td><td>Patel</td><td>Avinashi Road</td><td>Coimbatore</td><td>Tamil Nadu</td><td>641014.0</td><td>9.876543217E9</td><td>1.23456786E8</td><td>sanjay</td><td>1.2345678E7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Tests.RegistrationTest#registrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Arun</td><td>Kumar</td><td>Gandhipuram</td><td>Coimbatore</td><td>Tamil Nadu</td><td>641012.0</td><td>9.876543211E9</td><td>1.2345678E8</td><td>arun</td><td>1.2345678E7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Tests.RegistrationTest#registrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Meena</td><td>Joseph</td><td>Race Course</td><td>Coimbatore</td><td>Tamil Nadu</td><td>641018.0</td><td>9.876543216E9</td><td>1.23456785E8</td><td>meena</td><td>1.2345678E7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Tests.RegistrationTest#registrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Rahul</td><td>Verma</td><td>Peelamedu</td><td>Coimbatore</td><td>Tamil Nadu</td><td>641004.0</td><td>9.876543213E9</td><td>1.23456782E8</td><td>rahul</td><td>1.2345678E7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Tests.RegistrationTest#registrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Anitha</td><td>Reddy</td><td>Hopes</td><td>Coimbatore</td><td>Tamil Nadu</td><td>641015.0</td><td>9.876543218E9</td><td>1.23456787E8</td><td>anitha</td><td>1.2345678E7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Tests.RegistrationTest#registrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Priya</td><td>Sharma</td><td>RS Puram</td><td>Coimbatore</td><td>Tamil Nadu</td><td>641002.0</td><td>9.876543212E9</td><td>1.23456781E8</td><td>priya</td><td>1.2345678E7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Tests.RegistrationTest#registrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Divya</td><td>Nair</td><td>Saibaba Colony</td><td>Coimbatore</td><td>Tamil Nadu</td><td>641011.0</td><td>9.876543214E9</td><td>1.23456783E8</td><td>divya</td><td>1.2345678E7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Tests.RegistrationTest#registrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Surya</td><td>Prakash</td><td>Coimbatore</td><td>Coimbatore</td><td>Tamil Nadu</td><td>641001.0</td><td>9.87654321E9</td><td>1.23456789E8</td><td>surya</td><td>1.2345678E7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Tests.RegistrationTest#registrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Karthik</td><td>Raj</td><td>Singanallur</td><td>Coimbatore</td><td>Tamil Nadu</td><td>641005.0</td><td>9.876543215E9</td><td>1.23456784E8</td><td>karthik</td><td>1.2345678E7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Tests.RegistrationTest#registrationTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th></tr><tr class="param stripe"><td>Vikram</td><td>Singh</td><td>Vadavalli</td><td>Coimbatore</td><td>Tamil Nadu</td><td>641041.0</td><td>9.876543219E9</td><td>1.23456788E8</td><td>vikram</td><td>1.2345678E7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Tests.TransferFundsTest#transferFundsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
