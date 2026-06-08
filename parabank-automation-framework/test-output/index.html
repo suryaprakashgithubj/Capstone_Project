@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-ParaBank_Suite" class="navigator-link">
-              <span class="suite-name border-passed">ParaBank Suite</span>
+              <span class="suite-name border-failed">ParaBank Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">18 methods, 4 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ParaBank_Suite" class="hide-methods failed suite-ParaBank_Suite"> (hide)</a> <!-- hide-methods failed suite-ParaBank_Suite -->
+                      <a href="#" panel-name="suite-ParaBank_Suite" class="show-methods failed suite-ParaBank_Suite"> (show)</a> <!-- show-methods failed suite-ParaBank_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-ParaBank_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.BillPayTest" class="method navigator-link" hash-for-method="negativeAmountBillPayBugTest">negativeAmountBillPayBugTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.TransferFundsTest" class="method navigator-link" hash-for-method="sameAccountTransferBugTest">sameAccountTransferBugTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.BillPayTest" class="method navigator-link" hash-for-method="zeroAmountBillPayBugTest">zeroAmountBillPayBugTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.TransferFundsTest" class="method navigator-link" hash-for-method="zeroAmountTransferBugTest">zeroAmountTransferBugTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ParaBank_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,12 +147,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Sanjay, Patel, Avinashi Road, Coimbatore, Tamil Nadu, 641014.0, 9.876543217E9, 1.23456786E8, sanjay,...)">registrationTest(Sanjay, Patel, Avinashi Road, Coimbatore, Tamil Nadu, 641014.0, 9.876543217E9, 1.23456786E8, sanjay,...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Arun, Kumar, Gandhipuram, Coimbatore, Tamil Nadu, 641012.0, 9.876543211E9, 1.2345678E8, arun, 1.2345...)">registrationTest(Arun, Kumar, Gandhipuram, Coimbatore, Tamil Nadu, 641012.0, 9.876543211E9, 1.2345678E8, arun, 1.2345...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Anitha, Reddy, Hopes, Coimbatore, Tamil Nadu, 641015.0, 9.876543218E9, 1.23456787E8, anitha, 1.23456...)">registrationTest(Anitha, Reddy, Hopes, Coimbatore, Tamil Nadu, 641015.0, 9.876543218E9, 1.23456787E8, anitha, 1.23456...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -133,27 +157,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Rahul, Verma, Peelamedu, Coimbatore, Tamil Nadu, 641004.0, 9.876543213E9, 1.23456782E8, rahul, 1.234...)">registrationTest(Rahul, Verma, Peelamedu, Coimbatore, Tamil Nadu, 641004.0, 9.876543213E9, 1.23456782E8, rahul, 1.234...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Anitha, Reddy, Hopes, Coimbatore, Tamil Nadu, 641015.0, 9.876543218E9, 1.23456787E8, anitha, 1.23456...)">registrationTest(Anitha, Reddy, Hopes, Coimbatore, Tamil Nadu, 641015.0, 9.876543218E9, 1.23456787E8, anitha, 1.23456...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Priya, Sharma, RS Puram, Coimbatore, Tamil Nadu, 641002.0, 9.876543212E9, 1.23456781E8, priya, 1.234...)">registrationTest(Priya, Sharma, RS Puram, Coimbatore, Tamil Nadu, 641002.0, 9.876543212E9, 1.23456781E8, priya, 1.234...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Divya, Nair, Saibaba Colony, Coimbatore, Tamil Nadu, 641011.0, 9.876543214E9, 1.23456783E8, divya, 1...)">registrationTest(Divya, Nair, Saibaba Colony, Coimbatore, Tamil Nadu, 641011.0, 9.876543214E9, 1.23456783E8, divya, 1...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Rahul, Verma, Peelamedu, Coimbatore, Tamil Nadu, 641004.0, 9.876543213E9, 1.23456782E8, rahul, 1.234...)">registrationTest(Rahul, Verma, Peelamedu, Coimbatore, Tamil Nadu, 641004.0, 9.876543213E9, 1.23456782E8, rahul, 1.234...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Surya, Prakash, Coimbatore, Coimbatore, Tamil Nadu, 641001.0, 9.87654321E9, 1.23456789E8, surya, 1.2...)">registrationTest(Surya, Prakash, Coimbatore, Coimbatore, Tamil Nadu, 641001.0, 9.87654321E9, 1.23456789E8, surya, 1.2...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Arun, Kumar, Gandhipuram, Coimbatore, Tamil Nadu, 641012.0, 9.876543211E9, 1.2345678E8, arun, 1.2345...)">registrationTest(Arun, Kumar, Gandhipuram, Coimbatore, Tamil Nadu, 641012.0, 9.876543211E9, 1.2345678E8, arun, 1.2345...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -163,7 +177,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Sanjay, Patel, Avinashi Road, Coimbatore, Tamil Nadu, 641014.0, 9.876543217E9, 1.23456786E8, sanjay,...)">registrationTest(Sanjay, Patel, Avinashi Road, Coimbatore, Tamil Nadu, 641014.0, 9.876543217E9, 1.23456786E8, sanjay,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Surya, Prakash, Coimbatore, Coimbatore, Tamil Nadu, 641001.0, 9.87654321E9, 1.23456789E8, surya, 1.2...)">registrationTest(Surya, Prakash, Coimbatore, Coimbatore, Tamil Nadu, 641001.0, 9.87654321E9, 1.23456789E8, surya, 1.2...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Vikram, Singh, Vadavalli, Coimbatore, Tamil Nadu, 641041.0, 9.876543219E9, 1.23456788E8, vikram, 1.2...)">registrationTest(Vikram, Singh, Vadavalli, Coimbatore, Tamil Nadu, 641041.0, 9.876543219E9, 1.23456788E8, vikram, 1.2...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParaBank_Suite" title="Tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest(Divya, Nair, Saibaba Colony, Coimbatore, Tamil Nadu, 641011.0, 9.876543214E9, 1.23456783E8, divya, 1...)">registrationTest(Divya, Nair, Saibaba Colony, Coimbatore, Tamil Nadu, 641011.0, 9.876543214E9, 1.23456783E8, divya, 1...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -183,6 +212,70 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-ParaBank_Suite" class="panel ParaBank_Suite">
+          <div class="suite-ParaBank_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.BillPayTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeAmountBillPayBugTest">
+                  </a> <!-- negativeAmountBillPayBugTest -->
+                  <span class="method-name">negativeAmountBillPayBugTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Bug Found: Negative amount bill payment is allowed expected [false] but found [true]
+	at Tests.BillPayTest.negativeAmountBillPayBugTest(BillPayTest.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zeroAmountBillPayBugTest">
+                  </a> <!-- zeroAmountBillPayBugTest -->
+                  <span class="method-name">zeroAmountBillPayBugTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Bug Found: Zero amount bill payment is allowed expected [false] but found [true]
+	at Tests.BillPayTest.zeroAmountBillPayBugTest(BillPayTest.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParaBank_Suite-class-failed -->
+          <div class="suite-ParaBank_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Tests.TransferFundsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sameAccountTransferBugTest">
+                  </a> <!-- sameAccountTransferBugTest -->
+                  <span class="method-name">sameAccountTransferBugTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Bug Found: Same account transfer is allowed expected [false] but found [true]
+	at Tests.TransferFundsTest.sameAccountTransferBugTest(TransferFundsTest.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zeroAmountTransferBugTest">
+                  </a> <!-- zeroAmountTransferBugTest -->
+                  <span class="method-name">zeroAmountTransferBugTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: Bug Found: Zero amount transfer is allowed expected [false] but found [true]
+	at Tests.TransferFundsTest.zeroAmountTransferBugTest(TransferFundsTest.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParaBank_Suite-class-failed -->
           <div class="suite-ParaBank_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -236,18 +329,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="registrationTest(Sanjay, Patel, Avinashi Road, Coimbatore, Tamil Nadu, 641014.0, 9.876543217E9, 1.23456786E8, sanjay,...)">
-                  </a> <!-- registrationTest(Sanjay, Patel, Avinashi Road, Coimbatore, Tamil Nadu, 641014.0, 9.876543217E9, 1.23456786E8, sanjay,...) -->
+                  <a name="registrationTest(Anitha, Reddy, Hopes, Coimbatore, Tamil Nadu, 641015.0, 9.876543218E9, 1.23456787E8, anitha, 1.23456...)">
+                  </a> <!-- registrationTest(Anitha, Reddy, Hopes, Coimbatore, Tamil Nadu, 641015.0, 9.876543218E9, 1.23456787E8, anitha, 1.23456...) -->
                   <span class="method-name">registrationTest</span>
-                  <span class="parameters">(Sanjay,Patel,Avinashi Road,Coimbatore,Tamil Nadu,641014.0,9.876543217E9,1.23456786E8,sanjay,1.2345678E7)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationTest(Arun, Kumar, Gandhipuram, Coimbatore, Tamil Nadu, 641012.0, 9.876543211E9, 1.2345678E8, arun, 1.2345...)">
-                  </a> <!-- registrationTest(Arun, Kumar, Gandhipuram, Coimbatore, Tamil Nadu, 641012.0, 9.876543211E9, 1.2345678E8, arun, 1.2345...) -->
-                  <span class="method-name">registrationTest</span>
-                  <span class="parameters">(Arun,Kumar,Gandhipuram,Coimbatore,Tamil Nadu,641012.0,9.876543211E9,1.2345678E8,arun,1.2345678E7)</span>
+                  <span class="parameters">(Anitha,Reddy,Hopes,Coimbatore,Tamil Nadu,641015.0,9.876543218E9,1.23456787E8,anitha,1.2345678E7)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -260,22 +345,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="registrationTest(Rahul, Verma, Peelamedu, Coimbatore, Tamil Nadu, 641004.0, 9.876543213E9, 1.23456782E8, rahul, 1.234...)">
-                  </a> <!-- registrationTest(Rahul, Verma, Peelamedu, Coimbatore, Tamil Nadu, 641004.0, 9.876543213E9, 1.23456782E8, rahul, 1.234...) -->
-                  <span class="method-name">registrationTest</span>
-                  <span class="parameters">(Rahul,Verma,Peelamedu,Coimbatore,Tamil Nadu,641004.0,9.876543213E9,1.23456782E8,rahul,1.2345678E7)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationTest(Anitha, Reddy, Hopes, Coimbatore, Tamil Nadu, 641015.0, 9.876543218E9, 1.23456787E8, anitha, 1.23456...)">
-                  </a> <!-- registrationTest(Anitha, Reddy, Hopes, Coimbatore, Tamil Nadu, 641015.0, 9.876543218E9, 1.23456787E8, anitha, 1.23456...) -->
-                  <span class="method-name">registrationTest</span>
-                  <span class="parameters">(Anitha,Reddy,Hopes,Coimbatore,Tamil Nadu,641015.0,9.876543218E9,1.23456787E8,anitha,1.2345678E7)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="registrationTest(Priya, Sharma, RS Puram, Coimbatore, Tamil Nadu, 641002.0, 9.876543212E9, 1.23456781E8, priya, 1.234...)">
                   </a> <!-- registrationTest(Priya, Sharma, RS Puram, Coimbatore, Tamil Nadu, 641002.0, 9.876543212E9, 1.23456781E8, priya, 1.234...) -->
                   <span class="method-name">registrationTest</span>
@@ -284,18 +353,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="registrationTest(Divya, Nair, Saibaba Colony, Coimbatore, Tamil Nadu, 641011.0, 9.876543214E9, 1.23456783E8, divya, 1...)">
-                  </a> <!-- registrationTest(Divya, Nair, Saibaba Colony, Coimbatore, Tamil Nadu, 641011.0, 9.876543214E9, 1.23456783E8, divya, 1...) -->
+                  <a name="registrationTest(Rahul, Verma, Peelamedu, Coimbatore, Tamil Nadu, 641004.0, 9.876543213E9, 1.23456782E8, rahul, 1.234...)">
+                  </a> <!-- registrationTest(Rahul, Verma, Peelamedu, Coimbatore, Tamil Nadu, 641004.0, 9.876543213E9, 1.23456782E8, rahul, 1.234...) -->
                   <span class="method-name">registrationTest</span>
-                  <span class="parameters">(Divya,Nair,Saibaba Colony,Coimbatore,Tamil Nadu,641011.0,9.876543214E9,1.23456783E8,divya,1.2345678E7)</span>
+                  <span class="parameters">(Rahul,Verma,Peelamedu,Coimbatore,Tamil Nadu,641004.0,9.876543213E9,1.23456782E8,rahul,1.2345678E7)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="registrationTest(Surya, Prakash, Coimbatore, Coimbatore, Tamil Nadu, 641001.0, 9.87654321E9, 1.23456789E8, surya, 1.2...)">
-                  </a> <!-- registrationTest(Surya, Prakash, Coimbatore, Coimbatore, Tamil Nadu, 641001.0, 9.87654321E9, 1.23456789E8, surya, 1.2...) -->
+                  <a name="registrationTest(Arun, Kumar, Gandhipuram, Coimbatore, Tamil Nadu, 641012.0, 9.876543211E9, 1.2345678E8, arun, 1.2345...)">
+                  </a> <!-- registrationTest(Arun, Kumar, Gandhipuram, Coimbatore, Tamil Nadu, 641012.0, 9.876543211E9, 1.2345678E8, arun, 1.2345...) -->
                   <span class="method-name">registrationTest</span>
-                  <span class="parameters">(Surya,Prakash,Coimbatore,Coimbatore,Tamil Nadu,641001.0,9.87654321E9,1.23456789E8,surya,1.2345678E7)</span>
+                  <span class="parameters">(Arun,Kumar,Gandhipuram,Coimbatore,Tamil Nadu,641012.0,9.876543211E9,1.2345678E8,arun,1.2345678E7)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -308,10 +377,34 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="registrationTest(Sanjay, Patel, Avinashi Road, Coimbatore, Tamil Nadu, 641014.0, 9.876543217E9, 1.23456786E8, sanjay,...)">
+                  </a> <!-- registrationTest(Sanjay, Patel, Avinashi Road, Coimbatore, Tamil Nadu, 641014.0, 9.876543217E9, 1.23456786E8, sanjay,...) -->
+                  <span class="method-name">registrationTest</span>
+                  <span class="parameters">(Sanjay,Patel,Avinashi Road,Coimbatore,Tamil Nadu,641014.0,9.876543217E9,1.23456786E8,sanjay,1.2345678E7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationTest(Surya, Prakash, Coimbatore, Coimbatore, Tamil Nadu, 641001.0, 9.87654321E9, 1.23456789E8, surya, 1.2...)">
+                  </a> <!-- registrationTest(Surya, Prakash, Coimbatore, Coimbatore, Tamil Nadu, 641001.0, 9.87654321E9, 1.23456789E8, surya, 1.2...) -->
+                  <span class="method-name">registrationTest</span>
+                  <span class="parameters">(Surya,Prakash,Coimbatore,Coimbatore,Tamil Nadu,641001.0,9.87654321E9,1.23456789E8,surya,1.2345678E7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="registrationTest(Vikram, Singh, Vadavalli, Coimbatore, Tamil Nadu, 641041.0, 9.876543219E9, 1.23456788E8, vikram, 1.2...)">
                   </a> <!-- registrationTest(Vikram, Singh, Vadavalli, Coimbatore, Tamil Nadu, 641041.0, 9.876543219E9, 1.23456788E8, vikram, 1.2...) -->
                   <span class="method-name">registrationTest</span>
                   <span class="parameters">(Vikram,Singh,Vadavalli,Coimbatore,Tamil Nadu,641041.0,9.876543219E9,1.23456788E8,vikram,1.2345678E7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationTest(Divya, Nair, Saibaba Colony, Coimbatore, Tamil Nadu, 641011.0, 9.876543214E9, 1.23456783E8, divya, 1...)">
+                  </a> <!-- registrationTest(Divya, Nair, Saibaba Colony, Coimbatore, Tamil Nadu, 641011.0, 9.876543214E9, 1.23456783E8, divya, 1...) -->
+                  <span class="method-name">registrationTest</span>
+                  <span class="parameters">(Divya,Nair,Saibaba Colony,Coimbatore,Tamil Nadu,641011.0,9.876543214E9,1.23456783E8,divya,1.2345678E7)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -390,68 +483,84 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(14);
+data.addRows(18);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'transferFundsTest')
 data.setCell(0, 2, 'Tests.TransferFundsTest')
-data.setCell(0, 3, 3901);
+data.setCell(0, 3, 3352);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'registrationTest')
-data.setCell(1, 2, 'Tests.RegistrationTest')
-data.setCell(1, 3, 3833);
+data.setCell(1, 1, 'negativeAmountBillPayBugTest')
+data.setCell(1, 2, 'Tests.BillPayTest')
+data.setCell(1, 3, 3197);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'billPayTest')
-data.setCell(2, 2, 'Tests.BillPayTest')
-data.setCell(2, 3, 3455);
+data.setCell(2, 1, 'zeroAmountTransferBugTest')
+data.setCell(2, 2, 'Tests.TransferFundsTest')
+data.setCell(2, 3, 3103);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'registrationTest')
-data.setCell(3, 2, 'Tests.RegistrationTest')
-data.setCell(3, 3, 3113);
+data.setCell(3, 1, 'zeroAmountBillPayBugTest')
+data.setCell(3, 2, 'Tests.BillPayTest')
+data.setCell(3, 3, 3074);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'openAccountTest')
-data.setCell(4, 2, 'Tests.OpenAccountTest')
-data.setCell(4, 3, 3101);
+data.setCell(4, 1, 'registrationTest')
+data.setCell(4, 2, 'Tests.RegistrationTest')
+data.setCell(4, 3, 2939);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'registrationTest')
-data.setCell(5, 2, 'Tests.RegistrationTest')
-data.setCell(5, 3, 2898);
+data.setCell(5, 1, 'openAccountTest')
+data.setCell(5, 2, 'Tests.OpenAccountTest')
+data.setCell(5, 3, 2872);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'registrationTest')
-data.setCell(6, 2, 'Tests.RegistrationTest')
-data.setCell(6, 3, 2831);
+data.setCell(6, 1, 'billPayTest')
+data.setCell(6, 2, 'Tests.BillPayTest')
+data.setCell(6, 3, 2830);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'loginTest')
-data.setCell(7, 2, 'Tests.LoginTest')
-data.setCell(7, 3, 2738);
+data.setCell(7, 1, 'registrationTest')
+data.setCell(7, 2, 'Tests.RegistrationTest')
+data.setCell(7, 3, 2689);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'registrationTest')
 data.setCell(8, 2, 'Tests.RegistrationTest')
-data.setCell(8, 3, 2635);
+data.setCell(8, 3, 2503);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'registrationTest')
 data.setCell(9, 2, 'Tests.RegistrationTest')
-data.setCell(9, 3, 2529);
+data.setCell(9, 3, 2464);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'registrationTest')
 data.setCell(10, 2, 'Tests.RegistrationTest')
-data.setCell(10, 3, 2513);
+data.setCell(10, 3, 2417);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'registrationTest')
 data.setCell(11, 2, 'Tests.RegistrationTest')
-data.setCell(11, 3, 2460);
+data.setCell(11, 3, 2349);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'registrationTest')
-data.setCell(12, 2, 'Tests.RegistrationTest')
-data.setCell(12, 3, 1127);
+data.setCell(12, 1, 'loginTest')
+data.setCell(12, 2, 'Tests.LoginTest')
+data.setCell(12, 3, 2275);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'registrationTest')
 data.setCell(13, 2, 'Tests.RegistrationTest')
-data.setCell(13, 3, 1119);
+data.setCell(13, 3, 1834);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'sameAccountTransferBugTest')
+data.setCell(14, 2, 'Tests.TransferFundsTest')
+data.setCell(14, 3, 1820);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'registrationTest')
+data.setCell(15, 2, 'Tests.RegistrationTest')
+data.setCell(15, 3, 1602);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'registrationTest')
+data.setCell(16, 2, 'Tests.RegistrationTest')
+data.setCell(16, 3, 1277);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'registrationTest')
+data.setCell(17, 2, 'Tests.RegistrationTest')
+data.setCell(17, 3, 1273);
 window.suiteTableData['ParaBank_Suite']= { tableData: data, tableDiv: 'times-div-ParaBank_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-ParaBank_Suite">
               </div> <!-- times-div-ParaBank_Suite -->
             </div> <!-- times-div -->
@@ -512,183 +621,239 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">5533 ms</span>
+                <span class="method-start">6148 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationTest(Surya, Prakash, Coimbatore, Coimbatore, Tamil Nadu, 641001.0, 9.87654321E9, 1.23456789E8, surya, 1.2...)</span>
-                <span class="method-start">6896 ms</span>
+                <span class="method-start">7525 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
-                <span class="method-start">9737 ms</span>
+                <span class="method-start">9877 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">9829 ms</span>
+                <span class="method-start">9961 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationTest(Arun, Kumar, Gandhipuram, Coimbatore, Tamil Nadu, 641012.0, 9.876543211E9, 1.2345678E8, arun, 1.2345...)</span>
-                <span class="method-start">11522 ms</span>
+                <span class="method-start">12227 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
-                <span class="method-start">14423 ms</span>
+                <span class="method-start">13501 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">14544 ms</span>
+                <span class="method-start">13583 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationTest(Priya, Sharma, RS Puram, Coimbatore, Tamil Nadu, 641002.0, 9.876543212E9, 1.23456781E8, priya, 1.234...)</span>
-                <span class="method-start">16311 ms</span>
+                <span class="method-start">14974 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
-                <span class="method-start">18772 ms</span>
+                <span class="method-start">17439 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">18854 ms</span>
+                <span class="method-start">17527 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationTest(Rahul, Verma, Peelamedu, Coimbatore, Tamil Nadu, 641004.0, 9.876543213E9, 1.23456782E8, rahul, 1.234...)</span>
-                <span class="method-start">20184 ms</span>
+                <span class="method-start">20036 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
-                <span class="method-start">22820 ms</span>
+                <span class="method-start">21639 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">22900 ms</span>
+                <span class="method-start">21724 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationTest(Divya, Nair, Saibaba Colony, Coimbatore, Tamil Nadu, 641011.0, 9.876543214E9, 1.23456783E8, divya, 1...)</span>
-                <span class="method-start">24295 ms</span>
+                <span class="method-start">24616 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
-                <span class="method-start">26825 ms</span>
+                <span class="method-start">26452 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">26908 ms</span>
+                <span class="method-start">26537 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationTest(Karthik, Raj, Singanallur, Coimbatore, Tamil Nadu, 641005.0, 9.876543215E9, 1.23456784E8, karthik, 1...)</span>
-                <span class="method-start">28381 ms</span>
+                <span class="method-start">27957 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
-                <span class="method-start">32215 ms</span>
+                <span class="method-start">30897 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">32295 ms</span>
+                <span class="method-start">30985 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationTest(Meena, Joseph, Race Course, Coimbatore, Tamil Nadu, 641018.0, 9.876543216E9, 1.23456785E8, meena, 1....)</span>
-                <span class="method-start">33774 ms</span>
+                <span class="method-start">32408 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
-                <span class="method-start">36287 ms</span>
+                <span class="method-start">34915 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">36375 ms</span>
+                <span class="method-start">34999 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationTest(Sanjay, Patel, Avinashi Road, Coimbatore, Tamil Nadu, 641014.0, 9.876543217E9, 1.23456786E8, sanjay,...)</span>
-                <span class="method-start">39115 ms</span>
+                <span class="method-start">36264 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
-                <span class="method-start">40243 ms</span>
+                <span class="method-start">38954 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">40329 ms</span>
+                <span class="method-start">39038 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationTest(Anitha, Reddy, Hopes, Coimbatore, Tamil Nadu, 641015.0, 9.876543218E9, 1.23456787E8, anitha, 1.23456...)</span>
-                <span class="method-start">41761 ms</span>
+                <span class="method-start">40428 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
-                <span class="method-start">44874 ms</span>
+                <span class="method-start">42847 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">44960 ms</span>
+                <span class="method-start">42929 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">registrationTest(Vikram, Singh, Vadavalli, Coimbatore, Tamil Nadu, 641041.0, 9.876543219E9, 1.23456788E8, vikram, 1.2...)</span>
-                <span class="method-start">48342 ms</span>
+                <span class="method-start">45187 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang....)</span>
-                <span class="method-start">49462 ms</span>
+                <span class="method-start">46467 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">49551 ms</span>
+                <span class="method-start">46560 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">50993 ms</span>
+                <span class="method-start">47906 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:0, instance:Tests.LoginTe...)</span>
-                <span class="method-start">53731 ms</span>
+                <span class="method-start">50182 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.OpenAccountTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">53822 ms</span>
+                <span class="method-start">50273 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">openAccountTest</span>
-                <span class="method-start">55178 ms</span>
+                <span class="method-start">51536 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=openAccountTest status=SUCCESS method=OpenAccountTest.openAccountTest()[pri:0, inst...)</span>
-                <span class="method-start">58280 ms</span>
+                <span class="method-start">54408 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.TransferFundsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">58365 ms</span>
+                <span class="method-start">54491 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">transferFundsTest</span>
-                <span class="method-start">59764 ms</span>
+                <span class="method-start">55683 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=transferFundsTest status=SUCCESS method=TransferFundsTest.transferFundsTest()[pri:1...)</span>
-                <span class="method-start">63666 ms</span>
+                <span class="method-start">59036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">59128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sameAccountTransferBugTest</span>
+                <span class="method-start">61530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sameAccountTransferBugTest status=FAILURE method=TransferFundsTest.sameAccountTrans...)</span>
+                <span class="method-start">63354 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">63594 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">zeroAmountTransferBugTest</span>
+                <span class="method-start">64905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=zeroAmountTransferBugTest status=FAILURE method=TransferFundsTest.zeroAmountTransfe...)</span>
+                <span class="method-start">68010 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.BillPayTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">63756 ms</span>
+                <span class="method-start">68233 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">billPayTest</span>
-                <span class="method-start">65109 ms</span>
+                <span class="method-start">69617 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=billPayTest status=SUCCESS method=BillPayTest.billPayTest()[pri:1, instance:Tests.B...)</span>
-                <span class="method-start">68564 ms</span>
+                <span class="method-start">72447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">72530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">zeroAmountBillPayBugTest</span>
+                <span class="method-start">73920 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=zeroAmountBillPayBugTest status=FAILURE method=BillPayTest.zeroAmountBillPayBugTest...)</span>
+                <span class="method-start">76998 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">77232 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">negativeAmountBillPayBugTest</span>
+                <span class="method-start">78683 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=negativeAmountBillPayBugTest status=FAILURE method=BillPayTest.negativeAmountBillPa...)</span>
+                <span class="method-start">81882 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
