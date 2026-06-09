@@ -11,43 +11,30 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/suryaprakashgithubj/Capstone_Project.git'
+                url: 'https://github.com/suryaprakashgithubj/Capstone_Project.git'
             }
         }
 
-        stage('Build') {
-            steps {
-                dir('parabank-automation-framework') {
-                    script {
-                        if (isUnix()) {
-                            sh 'mvn clean compile'
-                        } else {
-                            bat 'mvn clean compile'
-                        }
-                    }
-                }
-            }
+       stage('Build') {
+    steps {
+        dir('parabank-automation-framework') {
+            sh 'mvn clean compile'
         }
+    }
+}
 
-        stage('Run Tests') {
-            steps {
-                dir('parabank-automation-framework') {
-                    script {
-                        if (isUnix()) {
-                            sh 'mvn test'
-                        } else {
-                            bat 'mvn test'
-                        }
-                    }
-                }
-            }
+stage('Run Tests') {
+    steps {
+        dir('parabank-automation-framework') {
+            sh 'mvn test'
         }
+    }
+}
     }
 
     post {
         always {
-            archiveArtifacts artifacts: '**/target/surefire-reports/*',
-                             allowEmptyArchive: true
+            archiveArtifacts artifacts: '**/target/surefire-reports/*', allowEmptyArchive: true
         }
 
         success {
