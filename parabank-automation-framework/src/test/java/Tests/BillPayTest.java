@@ -5,31 +5,55 @@ import org.testng.annotations.Test;
 
 import Base.BaseTest;
 import Pages.BillPayPage;
-
+import Utils.ExcelUtils;
 
 public class BillPayTest extends BaseTest {
 
     @Test(priority = 1)
     public void billPayTest() {
 
-        
+        login();
 
-    	login();
+        String payeeName =
+                ExcelUtils.getCellData("BillPay", 1, 0);
+
+        String address =
+                ExcelUtils.getCellData("BillPay", 1, 1);
+
+        String city =
+                ExcelUtils.getCellData("BillPay", 1, 2);
+
+        String state =
+                ExcelUtils.getCellData("BillPay", 1, 3);
+
+        String zipCode =
+                ExcelUtils.getCellData("BillPay", 1, 4);
+
+        String phoneNumber =
+                ExcelUtils.getCellData("BillPay", 1, 5);
+
+        String accountNumber =
+                ExcelUtils.getCellData("BillPay", 1, 6);
+
+        String amount =
+                ExcelUtils.getCellData("BillPay", 1, 7);
 
         BillPayPage billPayPage =
                 new BillPayPage(driver);
 
         billPayPage.clickBillPayLink();
 
-        billPayPage.enterPayeeName("surya");
-        billPayPage.enterAddress("Coimbatore");
-        billPayPage.enterCity("Coimbatore");
-        billPayPage.enterState("Tamil Nadu");
-        billPayPage.enterZipCode("641001");
-        billPayPage.enterPhoneNumber("9876543210");
-        billPayPage.enterAccountNumber("12345");
-        billPayPage.enterVerifyAccount("12345");
-        billPayPage.enterAmount("500");
+        billPayPage.enterPayeeName(payeeName);
+        billPayPage.enterAddress(address);
+        billPayPage.enterCity(city);
+        billPayPage.enterState(state);
+        billPayPage.enterZipCode(zipCode);
+        billPayPage.enterPhoneNumber(phoneNumber);
+
+        billPayPage.enterAccountNumber(accountNumber);
+        billPayPage.enterVerifyAccount(accountNumber);
+
+        billPayPage.enterAmount(amount);
 
         billPayPage.selectFromAccount();
 
@@ -39,6 +63,4 @@ public class BillPayTest extends BaseTest {
                 billPayPage.isBillPaymentSuccessful(),
                 "Bill Payment Failed");
     }
-
-    
 }
