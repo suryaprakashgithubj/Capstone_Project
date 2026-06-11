@@ -12,7 +12,6 @@ public class AccountOverviewPage {
 
         this.driver = driver;
     }
-
     By accountsOverviewLink =
             By.linkText("Accounts Overview");
 
@@ -25,31 +24,26 @@ public class AccountOverviewPage {
 
     By transactionTypeDropdown =
             By.id("transactionType");
-
     By goButton =
             By.xpath("//input[@value='Go']");
-
     public void clickAccountsOverviewLink() {
 
         driver.findElement(
                 accountsOverviewLink)
                 .click();
     }
-
     public boolean isAccountDisplayed() {
 
         return driver.findElement(
                 accountNumberLink)
                 .isDisplayed();
     }
-
     public void clickAccountNumber() {
 
         driver.findElement(
                 accountNumberLink)
                 .click();
     }
-
     public void selectActivityPeriod(
             String month) {
 
@@ -61,7 +55,6 @@ public class AccountOverviewPage {
         select.selectByVisibleText(
                 month);
     }
-
     public void selectTransactionType(
             String type) {
 
@@ -73,7 +66,6 @@ public class AccountOverviewPage {
         select.selectByVisibleText(
                 type);
     }
-
     public void clickGoButton() {
 
         driver.findElement(

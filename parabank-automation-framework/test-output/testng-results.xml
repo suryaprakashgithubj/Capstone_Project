@@ -2,35 +2,35 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-11T13:05:08 IST" name="Default suite" finished-at="2026-06-11T13:05:17 IST" duration-ms="8721">
+  <suite started-at="2026-06-11T15:21:35 IST" name="Default suite" finished-at="2026-06-11T15:21:43 IST" duration-ms="7680">
     <groups>
     </groups>
-    <test started-at="2026-06-11T13:05:08 IST" name="Default test" finished-at="2026-06-11T13:05:17 IST" duration-ms="8721">
-      <class name="Tests.BillPayTest">
-        <test-method is-config="true" signature="createUser()[pri:0, instance:Tests.BillPayTest@2767e23c]" started-at="2026-06-11T13:04:57 IST" name="createUser" finished-at="2026-06-11T13:05:08 IST" duration-ms="10705" status="PASS">
+    <test started-at="2026-06-11T15:21:35 IST" name="Default test" finished-at="2026-06-11T15:21:43 IST" duration-ms="7680">
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="createUser()[pri:0, instance:Tests.LoginTest@5386659f]" started-at="2026-06-11T15:21:25 IST" name="createUser" finished-at="2026-06-11T15:21:35 IST" duration-ms="9748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BillPayTest@2767e23c]" started-at="2026-06-11T13:05:08 IST" name="setup" finished-at="2026-06-11T13:05:10 IST" duration-ms="2037" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTest@5386659f]" started-at="2026-06-11T15:21:35 IST" name="setup" finished-at="2026-06-11T15:21:37 IST" duration-ms="2012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="billPayTest()[pri:1, instance:Tests.BillPayTest@2767e23c]" started-at="2026-06-11T13:05:10 IST" name="billPayTest" finished-at="2026-06-11T13:05:17 IST" duration-ms="6577" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:Tests.LoginTest@5386659f]" started-at="2026-06-11T15:21:37 IST" name="loginTest" finished-at="2026-06-11T15:21:43 IST" duration-ms="5559" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- billPayTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.BillPayTest@2767e23c]" started-at="2026-06-11T13:05:17 IST" name="tearDown" finished-at="2026-06-11T13:05:17 IST" duration-ms="89" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@5386659f]" started-at="2026-06-11T15:21:43 IST" name="tearDown" finished-at="2026-06-11T15:21:43 IST" duration-ms="91" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=billPayTest status=SUCCESS method=BillPayTest.billPayTest()[pri:1, instance:Tests.BillPayTest@2767e23c] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:0, instance:Tests.LoginTest@5386659f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Tests.BillPayTest -->
+      </class> <!-- Tests.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

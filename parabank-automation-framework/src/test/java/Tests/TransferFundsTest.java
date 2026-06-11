@@ -8,9 +8,6 @@ public class TransferFundsTest extends BaseTest {
 
     @Test(priority = 1)
     public void transferFundsTest() {
-
-        
-
     	login();
 
         TransferFundsPage transferPage =

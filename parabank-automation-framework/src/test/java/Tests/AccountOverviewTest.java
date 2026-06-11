@@ -1,14 +1,10 @@
 package Tests;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import Base.BaseTest;
 import Pages.AccountOverviewPage;
-
 public class AccountOverviewTest
         extends BaseTest {
-
     @Test(priority = 1)
     public void accountOverviewTest() {
 
