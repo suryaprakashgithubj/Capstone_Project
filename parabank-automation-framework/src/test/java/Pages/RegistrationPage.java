@@ -3,6 +3,8 @@ package Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import Utils.WaitUtils;
+
 public class RegistrationPage {
 
     WebDriver driver;
@@ -27,10 +29,14 @@ public class RegistrationPage {
 
     By registerButton = By.cssSelector("input[value='Register']");
 
-    // Actions
-
     public void clickRegisterLink() {
-        driver.findElement(registerLink).click();
+
+        WaitUtils.waitForClickable(
+                driver,
+                registerLink);
+
+        driver.findElement(registerLink)
+                .click();
     }
 
     public void enterFirstName(String fname) {

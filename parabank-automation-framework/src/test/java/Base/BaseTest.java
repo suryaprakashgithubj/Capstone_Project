@@ -25,7 +25,10 @@ public class BaseTest {
 
     @BeforeSuite
     public void createUser() {
+    	
 
+        String url1 =
+                config.getUrl();
         WebDriver tempDriver =
                 new ChromeDriver();
 
@@ -33,8 +36,7 @@ public class BaseTest {
                 .window()
                 .maximize();
 
-        tempDriver.get(
-                "https://parabank.parasoft.com/parabank/index.htm");
+        tempDriver.get(url1);
 
         RegistrationPage regPage =
                 new RegistrationPage(tempDriver);

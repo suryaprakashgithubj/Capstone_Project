@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import Utils.WaitUtils;
+
 public class OpenAccountPage {
 
     WebDriver driver;
@@ -23,7 +25,12 @@ public class OpenAccountPage {
 
     public void clickOpenNewAccountLink() {
 
-        driver.findElement(openNewAccountLink).click();
+        WaitUtils.waitForClickable(
+                driver,
+                openNewAccountLink);
+
+        driver.findElement(openNewAccountLink)
+                .click();
     }
 
     public void selectAccountType(String accountType) {

@@ -8,6 +8,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import Utils.WaitUtils;
+
 public class TransferFundsPage {
 
     WebDriver driver;
@@ -35,21 +37,27 @@ public class TransferFundsPage {
 
     public void clickTransferFundsLink() {
 
-        wait.until(
-                ExpectedConditions.elementToBeClickable(
-                        transferFundsLink));
+        WaitUtils.waitForClickable(
+                driver,
+                transferFundsLink);
 
-        driver.findElement(transferFundsLink).click();
+        driver.findElement(
+                transferFundsLink)
+                .click();
     }
 
-    public void enterAmount(String transferAmount) {
+    public void enterAmount(
+            String transferAmount) {
 
-        wait.until(
-                ExpectedConditions.visibilityOfElementLocated(
-                        amount));
+        WaitUtils.waitForVisibility(
+                driver,
+                amount);
 
-        driver.findElement(amount).clear();
-        driver.findElement(amount).sendKeys(transferAmount);
+        driver.findElement(amount)
+                .clear();
+
+        driver.findElement(amount)
+                .sendKeys(transferAmount);
     }
 
     public void selectFromAccount() {

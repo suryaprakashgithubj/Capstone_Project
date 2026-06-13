@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import Utils.WaitUtils;
+
 public class BillPayPage {
 
     WebDriver driver;
@@ -41,7 +43,12 @@ public class BillPayPage {
 
     public void clickBillPayLink() {
 
-        driver.findElement(billPayLink).click();
+        WaitUtils.waitForClickable(
+                driver,
+                billPayLink);
+
+        driver.findElement(billPayLink)
+                .click();
     }
 
     public void enterPayeeName(String value) {
