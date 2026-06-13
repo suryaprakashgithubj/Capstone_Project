@@ -23,6 +23,67 @@ public class BaseTest {
     ConfigReader config =
             new ConfigReader();
 
+    
+
+    @BeforeMethod
+    public void setup() {
+
+        String browser =
+                config.getBrowser();
+
+        String url =
+                config.getUrl();
+
+        if (browser.equalsIgnoreCase("chrome")) {
+
+            driver =
+                    new ChromeDriver();
+
+        } else if (browser.equalsIgnoreCase("firefox")) {
+
+            driver =
+                    new FirefoxDriver();
+        }
+
+        driver.manage().window().maximize();
+
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+        driver.get(url);
+    }
+
+    protected void login() {
+
+        LoginPage loginPage =
+                new LoginPage(driver);
+
+        loginPage.enterUsername(
+                UserManager.username);
+
+        loginPage.enterPassword(
+                UserManager.password);
+
+        loginPage.clickLoginButton();
+    }
+
+    @AfterMethod
+    public void tearDown(
+            ITestResult result) {
+
+        if (result.getStatus()
+                == ITestResult.FAILURE) {
+
+            ScreenshotUtils.captureScreenshot(
+                    driver,
+                    result.getName());
+        }
+
+        if (driver != null) {
+
+            driver.quit();
+        }
+    }
+    
     @BeforeSuite
     public void createUser() {
     	
@@ -73,69 +134,5 @@ public class BaseTest {
                         + UserManager.username);
 
         tempDriver.quit();
-    }
-
-    @BeforeMethod
-    public void setup() {
-
-        String browser =
-                config.getBrowser();
-
-        String url =
-                config.getUrl();
-
-        if (browser.equalsIgnoreCase("chrome")) {
-
-            driver =
-                    new ChromeDriver();
-
-        } else if (browser.equalsIgnoreCase("firefox")) {
-
-            driver =
-                    new FirefoxDriver();
-        }
-
-        driver.manage()
-                .window()
-                .maximize();
-
-        driver.manage()
-                .timeouts()
-                .implicitlyWait(
-                        Duration.ofSeconds(10));
-
-        driver.get(url);
-    }
-
-    protected void login() {
-
-        LoginPage loginPage =
-                new LoginPage(driver);
-
-        loginPage.enterUsername(
-                UserManager.username);
-
-        loginPage.enterPassword(
-                UserManager.password);
-
-        loginPage.clickLoginButton();
-    }
-
-    @AfterMethod
-    public void tearDown(
-            ITestResult result) {
-
-        if (result.getStatus()
-                == ITestResult.FAILURE) {
-
-            ScreenshotUtils.captureScreenshot(
-                    driver,
-                    result.getName());
-        }
-
-        if (driver != null) {
-
-            driver.quit();
-        }
     }
 }
