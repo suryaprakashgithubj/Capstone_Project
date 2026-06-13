@@ -10,16 +10,9 @@
 
             <class name="Tests.RegistrationTest"/>
             <class name="Tests.LoginTest"/>
-
-
             <class name="Tests.OpenAccountTest"/>
-
             <class name="Tests.TransferFundsTest"/>
-
             <class name="Tests.BillPayTest"/>
-
         </classes>
-
     </test>
-
 </suite>

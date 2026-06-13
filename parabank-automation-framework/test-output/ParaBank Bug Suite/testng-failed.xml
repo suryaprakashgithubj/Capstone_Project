@@ -6,15 +6,6 @@
   </listeners>
   <test thread-count="5" name="Bug Tests(failed)">
     <classes>
-      <class name="Negative_Cases.TransferFundsBugTest">
-        <methods>
-          <include name="createUser"/>
-          <include name="tearDown"/>
-          <include name="zeroAmountTransferBugTest"/>
-          <include name="setup"/>
-          <include name="sameAccountTransferBugTest"/>
-        </methods>
-      </class> <!-- Negative_Cases.TransferFundsBugTest -->
       <class name="Negative_Cases.BillPayBugTest">
         <methods>
           <include name="negativeAmountBillPayBugTest"/>
@@ -24,6 +15,15 @@
           <include name="setup"/>
         </methods>
       </class> <!-- Negative_Cases.BillPayBugTest -->
+      <class name="Negative_Cases.TransferFundsBugTest">
+        <methods>
+          <include name="createUser"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="sameAccountTransferBugTest"/>
+          <include name="zeroAmountTransferBugTest"/>
+        </methods>
+      </class> <!-- Negative_Cases.TransferFundsBugTest -->
     </classes>
   </test> <!-- Bug Tests(failed) -->
 </suite> <!-- Failed suite [ParaBank Bug Suite] -->

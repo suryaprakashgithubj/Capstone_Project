@@ -1,29 +1,783 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-11T15:21:35 IST" name="Default suite" finished-at="2026-06-11T15:21:43 IST" duration-ms="7680">
+  <suite started-at="2026-06-13T08:24:59 IST" name="ParaBank Suite" finished-at="2026-06-13T08:26:43 IST" duration-ms="103528">
     <groups>
     </groups>
-    <test started-at="2026-06-11T15:21:35 IST" name="Default test" finished-at="2026-06-11T15:21:43 IST" duration-ms="7680">
-      <class name="Tests.LoginTest">
-        <test-method is-config="true" signature="createUser()[pri:0, instance:Tests.LoginTest@5386659f]" started-at="2026-06-11T15:21:25 IST" name="createUser" finished-at="2026-06-11T15:21:35 IST" duration-ms="9748" status="PASS">
+    <test started-at="2026-06-13T08:24:59 IST" name="ParaBank Tests" finished-at="2026-06-13T08:26:43 IST" duration-ms="103528">
+      <class name="Tests.RegistrationTest">
+        <test-method is-config="true" signature="createUser()[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:24:52 IST" name="createUser" finished-at="2026-06-13T08:24:59 IST" duration-ms="6841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTest@5386659f]" started-at="2026-06-11T15:21:35 IST" name="setup" finished-at="2026-06-11T15:21:37 IST" duration-ms="2012" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:00 IST" name="setup" finished-at="2026-06-13T08:25:03 IST" duration-ms="2642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:Tests.LoginTest@5386659f]" started-at="2026-06-11T15:21:37 IST" name="loginTest" finished-at="2026-06-11T15:21:43 IST" duration-ms="5559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@5386659f]" started-at="2026-06-11T15:21:43 IST" name="tearDown" finished-at="2026-06-11T15:21:43 IST" duration-ms="91" status="PASS">
+        <test-method signature="registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:03 IST" name="registrationTest" data-provider="registrationData" finished-at="2026-06-13T08:25:04 IST" duration-ms="1363" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:0, instance:Tests.LoginTest@5386659f] output={null}]]]>
+                <![CDATA[Surya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prakash]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[641001.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.87654321E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.23456789E8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[surya]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:04 IST" name="tearDown" finished-at="2026-06-13T08:25:04 IST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:04 IST" name="setup" finished-at="2026-06-13T08:25:09 IST" duration-ms="4877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:09 IST" name="registrationTest" data-provider="registrationData" finished-at="2026-06-13T08:25:13 IST" duration-ms="3505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gandhipuram]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[641012.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.876543211E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.2345678E8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[arun]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:13 IST" name="tearDown" finished-at="2026-06-13T08:25:13 IST" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:13 IST" name="setup" finished-at="2026-06-13T08:25:15 IST" duration-ms="2618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:15 IST" name="registrationTest" data-provider="registrationData" finished-at="2026-06-13T08:25:18 IST" duration-ms="2759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RS Puram]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[641002.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.876543212E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.23456781E8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[priya]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:18 IST" name="tearDown" finished-at="2026-06-13T08:25:18 IST" duration-ms="81" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:18 IST" name="setup" finished-at="2026-06-13T08:25:23 IST" duration-ms="4519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:23 IST" name="registrationTest" data-provider="registrationData" finished-at="2026-06-13T08:25:24 IST" duration-ms="1387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Verma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Peelamedu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[641004.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.876543213E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.23456782E8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:24 IST" name="tearDown" finished-at="2026-06-13T08:25:24 IST" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:24 IST" name="setup" finished-at="2026-06-13T08:25:26 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:26 IST" name="registrationTest" data-provider="registrationData" finished-at="2026-06-13T08:25:28 IST" duration-ms="2408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nair]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Saibaba Colony]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[641011.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.876543214E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.23456783E8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[divya]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:28 IST" name="tearDown" finished-at="2026-06-13T08:25:28 IST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:28 IST" name="setup" finished-at="2026-06-13T08:25:31 IST" duration-ms="3164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:31 IST" name="registrationTest" data-provider="registrationData" finished-at="2026-06-13T08:25:34 IST" duration-ms="2207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Singanallur]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[641005.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.876543215E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.23456784E8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[karthik]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:34 IST" name="tearDown" finished-at="2026-06-13T08:25:34 IST" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:34 IST" name="setup" finished-at="2026-06-13T08:25:36 IST" duration-ms="2581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:36 IST" name="registrationTest" data-provider="registrationData" finished-at="2026-06-13T08:25:38 IST" duration-ms="1369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Meena]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joseph]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Race Course]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[641018.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.876543216E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.23456785E8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[meena]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:38 IST" name="tearDown" finished-at="2026-06-13T08:25:38 IST" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:38 IST" name="setup" finished-at="2026-06-13T08:25:39 IST" duration-ms="1570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:39 IST" name="registrationTest" data-provider="registrationData" finished-at="2026-06-13T08:25:58 IST" duration-ms="18698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sanjay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Avinashi Road]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[641014.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.876543217E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.23456786E8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[sanjay]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:58 IST" name="tearDown" finished-at="2026-06-13T08:25:58 IST" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:25:58 IST" name="setup" finished-at="2026-06-13T08:26:01 IST" duration-ms="2693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:26:01 IST" name="registrationTest" data-provider="registrationData" finished-at="2026-06-13T08:26:02 IST" duration-ms="1349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Reddy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hopes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[641015.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.876543218E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.23456787E8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[anitha]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:26:02 IST" name="tearDown" finished-at="2026-06-13T08:26:02 IST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:26:02 IST" name="setup" finished-at="2026-06-13T08:26:04 IST" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:26:04 IST" name="registrationTest" data-provider="registrationData" finished-at="2026-06-13T08:26:07 IST" duration-ms="2843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikram]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vadavalli]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[641041.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.876543219E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.23456788E8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[vikram]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.RegistrationTest@691939c9]" started-at="2026-06-13T08:26:07 IST" name="tearDown" finished-at="2026-06-13T08:26:07 IST" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationTest status=SUCCESS method=RegistrationTest.registrationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.RegistrationTest@691939c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.RegistrationTest -->
+      <class name="Tests.OpenAccountTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.OpenAccountTest@5adb0db3]" started-at="2026-06-13T08:26:22 IST" name="setup" finished-at="2026-06-13T08:26:25 IST" duration-ms="3105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="openAccountTest()[pri:0, instance:Tests.OpenAccountTest@5adb0db3]" started-at="2026-06-13T08:26:25 IST" name="openAccountTest" finished-at="2026-06-13T08:26:30 IST" duration-ms="5685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.OpenAccountTest@5adb0db3]" started-at="2026-06-13T08:26:30 IST" name="tearDown" finished-at="2026-06-13T08:26:31 IST" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openAccountTest status=SUCCESS method=OpenAccountTest.openAccountTest()[pri:0, instance:Tests.OpenAccountTest@5adb0db3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.OpenAccountTest -->
+      <class name="Tests.BillPayTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.BillPayTest@1a760689]" started-at="2026-06-13T08:26:37 IST" name="setup" finished-at="2026-06-13T08:26:39 IST" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="billPayTest()[pri:1, instance:Tests.BillPayTest@1a760689]" started-at="2026-06-13T08:26:39 IST" name="billPayTest" finished-at="2026-06-13T08:26:43 IST" duration-ms="4021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billPayTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.BillPayTest@1a760689]" started-at="2026-06-13T08:26:43 IST" name="tearDown" finished-at="2026-06-13T08:26:43 IST" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=billPayTest status=SUCCESS method=BillPayTest.billPayTest()[pri:1, instance:Tests.BillPayTest@1a760689] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.BillPayTest -->
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTest@22295ec4]" started-at="2026-06-13T08:26:07 IST" name="setup" finished-at="2026-06-13T08:26:19 IST" duration-ms="12511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:Tests.LoginTest@22295ec4]" started-at="2026-06-13T08:26:19 IST" name="loginTest" finished-at="2026-06-13T08:26:22 IST" duration-ms="2334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.LoginTest@22295ec4]" started-at="2026-06-13T08:26:22 IST" name="tearDown" finished-at="2026-06-13T08:26:22 IST" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:0, instance:Tests.LoginTest@22295ec4] output={null}]]]>
               </value>
             </param>
           </params>
@@ -31,6 +785,27 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Tests.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Tests.TransferFundsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.TransferFundsTest@3f270e0a]" started-at="2026-06-13T08:26:31 IST" name="setup" finished-at="2026-06-13T08:26:34 IST" duration-ms="3580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="transferFundsTest()[pri:1, instance:Tests.TransferFundsTest@3f270e0a]" started-at="2026-06-13T08:26:34 IST" name="transferFundsTest" finished-at="2026-06-13T08:26:37 IST" duration-ms="2922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transferFundsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Tests.TransferFundsTest@3f270e0a]" started-at="2026-06-13T08:26:37 IST" name="tearDown" finished-at="2026-06-13T08:26:37 IST" duration-ms="88" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=transferFundsTest status=SUCCESS method=TransferFundsTest.transferFundsTest()[pri:1, instance:Tests.TransferFundsTest@3f270e0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TransferFundsTest -->
+    </test> <!-- ParaBank Tests -->
+  </suite> <!-- ParaBank Suite -->
 </testng-results>
