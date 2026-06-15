@@ -67,8 +67,7 @@ public class BaseTest {
     }
 
     @AfterMethod
-    public void tearDown(
-            ITestResult result) {
+    public void tearDown(ITestResult result) {
 
         if (result.getStatus()
                 == ITestResult.FAILURE) {
@@ -88,14 +87,11 @@ public class BaseTest {
     public void createUser() {
     	
 
-        String url1 =
-                config.getUrl();
-        WebDriver tempDriver =
-                new ChromeDriver();
+        String url1 =config.getUrl();
+        
+        WebDriver tempDriver =new ChromeDriver();
 
-        tempDriver.manage()
-                .window()
-                .maximize();
+        tempDriver.manage().window().maximize();
 
         tempDriver.get(url1);
 

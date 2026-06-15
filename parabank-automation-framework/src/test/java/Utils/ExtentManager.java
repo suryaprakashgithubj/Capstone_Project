@@ -27,7 +27,6 @@ public class ExtentManager {
                     "Project",
                     "ParaBank Automation");
         }
-
         return extent;
     }
 }

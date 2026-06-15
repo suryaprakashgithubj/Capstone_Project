@@ -25,9 +25,7 @@ public class OpenAccountPage {
 
     public void clickOpenNewAccountLink() {
 
-        WaitUtils.waitForClickable(
-                driver,
-                openNewAccountLink);
+        WaitUtils.waitForClickable(driver,openNewAccountLink);
 
         driver.findElement(openNewAccountLink)
                 .click();
